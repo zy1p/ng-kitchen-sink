@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Counter } from './components/counter';
-import { SiteHeader } from './components/site-header';
-import { SiteFooter } from './components/site-footer';
+
 import { PrimeNG } from 'primeng/config';
+import { Counter } from './counter/counter';
+import { SiteHeader } from './site-header/site-header';
+import { SiteFooter } from './site-footer/site-footer';
 
 @Component({
   selector: 'app-root',
