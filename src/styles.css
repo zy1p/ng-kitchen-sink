@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "tailwindcss-primeui";
+
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *));
 
 @layer base {
   html {
